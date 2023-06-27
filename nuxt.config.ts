@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       meta: [
         {
           property: "og:title",
-          content: "Shahboz Mamatkarimov",
+          content: "Rachim Borz",
         },
         {
           property: "og:image",
