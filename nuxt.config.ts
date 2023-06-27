@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Portfolio",
+      title: "Shop",
       link: [
         {
           rel: "stylesheet",
@@ -24,11 +24,11 @@ export default defineNuxtConfig({
         },
         {
           property: "og:description",
-          content: "Full stack NodeJS developer",
+          content: "Shop",
         },
         {
           name: "description",
-          content: "Full Stack NodeJS developer"
+          content: "Shop"
         }
       ],
     },
