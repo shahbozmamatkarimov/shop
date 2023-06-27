@@ -263,8 +263,4 @@ const router = useRouter();
 .category_item:hover .items {
   display: block;
 }
-
-.items:active, .categories:active{
-  display: none !important;
-}
 </style>
