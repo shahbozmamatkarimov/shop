@@ -1,0 +1,148 @@
+<template>
+  <main>
+    <h1
+      class="font-bold text-xl px-28 text-center cursor-pointer ml-2 py-2 sticky top-0 z-40 bg-gray-200"
+    >
+      Airpods
+    </h1>
+    <section>
+      <!-- UI card from https://uxplanet.org/ultimate-guide-for-designing-ui-cards-59488a91b44f -->
+      <div class="flex flex-col">
+        <h1
+          class="font-bold text-xl px-28 cursor-pointer ml-2 py-2 sticky top-10 z-30 bg-gray-200"
+        >
+          1st generation <i class="bx bx-down-arrow"></i>
+        </h1>
+        <div class="relative m-3 flex flex-wrap mx-auto justify-center">
+          <div
+            v-for="i in 10"
+            :key="i"
+            class="relative max-w-sm min-w-[250px] bg-white shadow-md rounded-3xl p-2 mx-1 my-3 cursor-pointer"
+          >
+            <div class="overflow-x-hidden border rounded-2xl relative">
+              <img
+                class="h-52 w-52 min-w-full rounded-2xl object-cover"
+                src="https://cdn.mos.cms.futurecdn.net/z3b5dRkzVf7gLmwxjmMwPQ.jpg"
+              />
+              <p
+                @click="router.push(`/products/${i}/white_bluetooth`)"
+                class="absolute right-2 top-2 bg-white rounded-full p-2 cursor-pointer group"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 group-hover:opacity-50 opacity-70"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+              </p>
+            </div>
+            <div class="mt-4 pl-2 mb-2 flex justify-between">
+              <div>
+                <p class="text-lg font-semibold text-gray-900 mb-0">
+                  Product Name
+                </p>
+                <p class="text-md text-gray-800 mt-0">$340</p>
+              </div>
+              <div class="flex flex-col-reverse mb-1 mr-4 group cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 group-hover:opacity-70"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="gray"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- UI card from https://uxplanet.org/ultimate-guide-for-designing-ui-cards-59488a91b44f -->
+      <div class="flex flex-col">
+        <h1
+          class="font-bold text-xl px-28 cursor-pointer ml-2 py-2 sticky top-10 z-30 bg-gray-200"
+        >
+          2nd generation <i class="bx bx-down-arrow"></i>
+        </h1>
+        <div class="relative m-3 flex flex-wrap mx-auto justify-center">
+          <div
+            v-for="i in 10"
+            :key="i"
+            class="relative max-w-sm min-w-[250px] bg-white shadow-md rounded-3xl p-2 mx-1 my-3 cursor-pointer"
+          >
+            <div class="overflow-x-hidden border rounded-2xl relative">
+              <img
+                class="h-52 w-52 min-w-full rounded-2xl mx-auto object-cover"
+                src="https://helios-i.mashable.com/imagery/reviews/02n4hYs63fnhgSULExtn1qY/hero-image.fill.size_1248x702.v1663662692.jpg"
+              />
+              <p
+                class="absolute right-2 top-2 bg-white rounded-full p-2 cursor-pointer group"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 group-hover:opacity-50 opacity-70"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+              </p>
+            </div>
+            <div class="mt-4 pl-2 mb-2 flex justify-between">
+              <div>
+                <p class="text-lg font-semibold text-gray-900 mb-0">
+                  Product Name
+                </p>
+                <p class="text-md text-gray-800 mt-0">$340</p>
+              </div>
+              <div class="flex flex-col-reverse mb-1 mr-4 group cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 group-hover:opacity-70"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="gray"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</template>
+
+<script setup>
+const router = useRouter();
+</script>
+
+<style lang="scss" scoped></style>
