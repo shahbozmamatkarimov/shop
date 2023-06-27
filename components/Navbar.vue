@@ -20,7 +20,7 @@
                 >Products</router-link
               >
             </li>
-            <li class="category pb-4 -mb-4">
+            <li class="category pb-[19px] -mb-4">
               <h1 :class="{'border-b-4 pb-[19px] -mb-6': router.currentRoute.value.path == '/category'}" class="hover:text-gray-200 px-5 cursor-pointer">Catagories</h1>
               <ul
                 class="categories mt-5 hidden bg-gray-900 p-2 rounded-lg shadow shadow-white -ml-2 absolute z-50"
