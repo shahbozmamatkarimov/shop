@@ -200,7 +200,7 @@
               <div
                 class="flex items-end justify-end h-56 w-full bg-cover"
                 style="
-                  background-image: url('https://images.unsplash.com/photo-1590664863685-a99ef05e9f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=345&q=80');
+                  background-image: url('https://images.unsplash.com/photo-1532667449560-72a95c8d381b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
                 "
               >
                 <button
